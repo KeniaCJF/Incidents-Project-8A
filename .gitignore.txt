@@ -1,0 +1,39 @@
+# Laravel / PHP
+/vendor/
+.env
+.phpunit.result.cache
+/storage/*.key
+/storage/framework/cache/data
+/storage/debugbar
+/node_modules/
+
+# Laravel IDE helper
+/_ide_helper.php
+/_ide_helper_models.php
+
+# Composer
+/composer.lock
+
+# NPM / Vue
+/node_modules/
+/dist/
+/public/js/
+/public/css/
+
+# Logs & system files
+*.log
+*.cache
+*.DS_Store
+Thumbs.db
+
+# Env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS & editor
+*.swp
+*.swo
+.idea/
+.vscode/
